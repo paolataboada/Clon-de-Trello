@@ -21,6 +21,7 @@
 
 <script>
 import BoardCard from '@/components/BoardCard'
+
 export default {
     name: 'home-view',
     components: { BoardCard },
@@ -28,8 +29,8 @@ export default {
         return {
             boardName: '',
             boards: [
-                { id: 1, name: 'Tareas' },
-                { id: 2, name: 'Lista de Compras' }
+                { id: '1', name: 'Tareas' },
+                { id: '2', name: 'Lista de Compras' }
             ]
         }
     },

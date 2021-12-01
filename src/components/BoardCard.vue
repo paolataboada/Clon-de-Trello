@@ -9,9 +9,9 @@
 
 <script>
 export default {
-    name: 'boad-card',
+    name: 'board-card',
     props: {
-        id: Number,
+        id: String,
         name: String
     }
 }

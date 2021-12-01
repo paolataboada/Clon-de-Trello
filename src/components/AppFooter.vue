@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <span>💻 with 💜 &amp; <a href="http://vue.org">Vue.js</a> in Perú</span>
+        <span>💻 with 💜 &amp; <a href="http://vue.org">Vue.js</a> by Paola Taboada</span>
     </footer>
 </template>
 
@@ -17,7 +17,7 @@ export default {
         bottom: 0;
         left: 0;
         padding: 1rem;
-        position: absolute;
+        position: fixed;
         width: 100%;
     }
     a {
