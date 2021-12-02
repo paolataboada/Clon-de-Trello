@@ -12,5 +12,6 @@ export default new Vuex.Store({
     state: {},
     getters: {},
     actions: {},
+    // Cambian los estados a partir de los eventos emitidos
     mutations: {}
 })
